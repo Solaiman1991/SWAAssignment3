@@ -1,0 +1,34 @@
+.highscore-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #b4dde7;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .highscore-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .highscore-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .highscore-item {
+    background-color: #fff;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .highscore-item:nth-child(odd) {
+    background-color: #ececec;
+  }
+  
